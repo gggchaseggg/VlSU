@@ -1,0 +1,4 @@
+﻿  lab6_2.cpp
+C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_2\lab6_2.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_2\lab6_2.cpp(21): warning C4172: возвращение адреса локальной или временной переменной : c
+  lab6_2.vcxproj -> C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_2\Debug\lab6_2.exe
