@@ -1,0 +1,29 @@
+<html>
+    <head> <meta charset = 'utf-8'>
+        <link rel = 'stylesheet' type = 'text/css' href='style13.css' title='MyStyleSheet'>
+        <title>Скрипт 1</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            document.bgColor='#FF6F00'
+        </script>
+
+        <p onmouseover="document.bgColor ='#0049da'"> Какой-то текст, изменяющий свойство документа - фон при наведении курсором </p>
+        <p onmouseover="document.bgColor ='#FF6F00'"> Тоже какой-то текст, изменяющий свойство документа - фон при наведении курсором </p>
+
+        <p style="color:white" 
+        onmouseover="this.style.color='#1751a200'
+        "onmouseout="this.style.color='white'">
+            Гопнули текст, бывает(
+        </p>
+
+        <p onmouseover="this.style.backgroundColor='#16eb00' " >
+            Cкрипит, изменяющий цвет фона текста второго абзаца при наведении мышкой  
+        </p>
+
+        <p onmouseover="this.style.backgroundColor='#00d4c5' " 
+        onmouseout="this.style.backgroundColor='#ccffbd00'">
+        Cкрипит, изменяющий цвет фона текста третьего абзаца только при наведении мышкой
+        </p>
+    </body>
+</html>

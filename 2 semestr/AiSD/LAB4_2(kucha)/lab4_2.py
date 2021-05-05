@@ -62,8 +62,6 @@ def BuildKuch(flag=True,kucha=[]):
 def MergeKuch(kucha1,kucha2):
     tmp_kucha = kucha1 + kucha2
     BuildKuch(False,tmp_kucha)
-    
-
 
 def menu():
     print ("Что вы хотите сделать?\n1 - Добавить элемент\n2 - Удалить больший эелемент\n3 - Построить кучу\n4 - Объединить кучи")
