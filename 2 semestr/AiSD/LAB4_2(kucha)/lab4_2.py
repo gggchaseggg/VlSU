@@ -1,8 +1,6 @@
 start_kucha = [100, 19, 36, 17, 3, 25, 1, 2, 7]
 start_kucha_add = [16, 11, 9, 10, 5, 6, 8, 1, 2]
 
-# def vivod_kuchi(kucha):
-#     for i in range()
 
 def AddElem(kucha,flag=True,element=3456384):
     '''Добавляет элемент в кучу'''
