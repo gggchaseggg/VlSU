@@ -1,0 +1,25 @@
+body {
+    background: url(fon.png) no-repeat;
+    background-size: cover;
+}
+#header1 {
+    text-align: left;
+    color: orange;
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: overline;
+}
+#header2 {
+    text-align: center;
+    color: blue;
+    text-transform: capitalize;
+    background-color: white;
+    text-decoration: underline;
+}
+#header3 {
+    text-align: right;
+    color: green;
+    text-transform: lowercase;
+    background-color: white;
+    text-decoration: line-through;
+}

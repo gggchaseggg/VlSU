@@ -1,0 +1,9 @@
+#blok {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    background-color: palevioletred;
+    
+    border: 7px white;
+    border-style: dotted ;
+}

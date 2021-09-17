@@ -1,0 +1,44 @@
+.zag1 {
+    color: red;
+    text-decoration: none;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+.zag1:visited {
+    color: green;
+}
+.zag1:active {
+    color: blue;
+}
+.zag1:hover {
+    text-decoration: overline;
+}
+
+.zag2 {
+    color: yellow;
+    text-decoration: none;
+}
+.zag2:visited {
+    color: purple;
+}
+.zag2:active {
+    color: black;
+}
+.zag2:hover {
+    text-decoration: underline;
+}
+
+.zag3 {
+    color: orange;
+    text-decoration: none;
+}
+.zag3:visited {
+    color: brown;
+}
+.zag3:active {
+    color: whitesmoke;
+}
+.zag3:hover {
+    text-decoration: line-through;
+}
