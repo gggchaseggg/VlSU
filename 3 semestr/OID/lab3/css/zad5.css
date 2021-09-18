@@ -1,9 +1,13 @@
+a {
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
 .zag1 {
     color: red;
     text-decoration: none;
-    transition-delay: 1s;
-    transition-duration: 3s;
-    transition-timing-function: ease;
 }
 .zag1:visited {
     color: green;
