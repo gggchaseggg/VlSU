@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 3</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        tmp = 0;
+        function vvod() {
+            var a = prompt("Все еще экспуатируют");
+            tmp = (a < 0 ? -a : a);
+        }
+        
+        function obr_otch(a) {
+            for (var i = a; i > -1; i--) {
+                alert(i);
+                if (i == 0) {
+                    alert("ФИНИШ");
+                    break;
+                }
+            }
+        }
+
+        function prs(a) {
+            var b = parseInt(a);
+            if (isNaN(b)) {
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+        function bt() {
+            var a = tmp;
+
+            if (prs(a)) {
+                obr_otch(a);
+            }
+            else {
+                alert("Неверное число!!!!!!!!");
+            }
+        }
+    </script>
+    <button onclick="vvod()" value="but1">!ВВЕДИ!</button>
+    <button onclick="bt()">!ОТСЧЕТ!</button>
+</body>
+
+</html>

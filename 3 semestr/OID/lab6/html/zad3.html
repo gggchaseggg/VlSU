@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/zad3.css">
+    <title>Задание 3</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Данные</legend>
+
+            <div class="text">
+                <p><label for="name">Имя</label></p>
+                <p><label for="surname">Фамилия</label></p>
+                <p><label for="dr">Дата рождения</label></p>  
+            </div>
+
+            <div class="pole">
+                <p><input type="text" id="name" required></p>
+                <p><input type="text" id="surname" required></p>
+                <p><input type="date" id="dr" required></p>
+            </div>
+            
+            <p><label for="adult"><input type="checkbox" id="adult" required> Мне больше 18</label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Контактная информация</legend>
+
+            <div class="text">
+                <p><label for="telephone">Телефон</label></p>
+                <p><label for="email">Электронная почта</label></p>
+                <p><label for="soc">Аккаунт в соц.сети</label></p>
+            </div>
+
+            <div class="pole">
+                <p><input type="text" id="telephone" placeholder="88005553535"></p>
+                <p><input type="email" id="email" placeholder="example@mail.ru"></p>
+                <p><input type="url" id="soc" placeholder="vk.com/id00000"></p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Информация</legend>
+
+            <div class="text">
+                <p><label for="photo">Фото</label></p>
+                <p><label for="info">Информация о себе</label></p>
+            </div>
+
+            <div class="pole">
+                <p><input type="file" id="photo"></p>
+                <!-- <p><input type="text" id="info" width="300px"></p> -->
+                <p><textarea name="info" id="info" cols="50" rows="10" ></textarea></p>
+            </div>
+        </fieldset>
+        <p>
+            <button type="submit">Применить</button>
+            <button type="reset">Сбросить</button>
+        </p>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function func() {
+            var a = prompt("Я кнопка меня эксплуатируют(число от 1 до 10):");
+            switch (a) {
+                case '9':
+                    alert("Верно");
+                    break;
+                case '6':
+                case '7':
+                case '8':
+                case '10':
+                    alert("Близко");
+                    break;
+                default:
+                    alert("Неверно");
+                    break;
+            }
+        }
+    </script>
+
+    <button onclick="func()">Кнопка</button>
+
+</body>
+
+</html>
