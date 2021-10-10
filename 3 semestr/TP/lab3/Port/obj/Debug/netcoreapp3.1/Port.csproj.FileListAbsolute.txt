@@ -1,0 +1,14 @@
+C:\VlSU\3 semestr\TP\lab3\Port\bin\Debug\netcoreapp3.1\Port.exe
+C:\VlSU\3 semestr\TP\lab3\Port\bin\Debug\netcoreapp3.1\Port.deps.json
+C:\VlSU\3 semestr\TP\lab3\Port\bin\Debug\netcoreapp3.1\Port.runtimeconfig.json
+C:\VlSU\3 semestr\TP\lab3\Port\bin\Debug\netcoreapp3.1\Port.runtimeconfig.dev.json
+C:\VlSU\3 semestr\TP\lab3\Port\bin\Debug\netcoreapp3.1\Port.dll
+C:\VlSU\3 semestr\TP\lab3\Port\bin\Debug\netcoreapp3.1\Port.pdb
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.csproj.AssemblyReference.cache
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.GeneratedMSBuildEditorConfig.editorconfig
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.AssemblyInfoInputs.cache
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.AssemblyInfo.cs
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.csproj.CoreCompileInputs.cache
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.dll
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.pdb
+C:\VlSU\3 semestr\TP\lab3\Port\obj\Debug\netcoreapp3.1\Port.genruntimeconfig.cache
