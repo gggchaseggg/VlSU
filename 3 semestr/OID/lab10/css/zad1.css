@@ -1,112 +1,64 @@
-body{
-    font-size: 18px;
-    width:90%;
-    margin: auto;
-    text-align: center;
-}
-
-header {
-    width:100%;
-}
-nav {
-    width:100%;
-    padding: 0;
-}
-main {
-    padding-bottom: 2%;
-    display: inline-block;
-    background-color: rgb(201, 201, 201);
-    width: 80%;
-}
-aside {
-    margin-left: 2%;
-    height: 150px;
-    width: 18%;
-    display: block;
-    background-color: rgb(201, 201, 201);
-    float: right;
-}
-footer {
-    width:100%;
-}
-section {
-    text-align: left;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 80%;
-    margin: auto;
-}
-article {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin: 5px auto;
-    display: block;
-}
-
-.ser {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(201, 201, 201);
-}
-
-.tom {
-    height: 80%;
-    background-color: tomato;
-}
-
-.smoke {
-    height: max-content;
-    background-color: whitesmoke;
-    padding: 5px;
-    border-radius: 15px;
-}
-
-a {
-    display: block;
-}
-
-/* a:link {
-    color: green;
-}
-a:visited {
-    color: blue;
-}
-a:active {
-    color: orange;
-} */
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
-    background-size: 10%;
-    background-position: center right;
-    background-repeat: no-repeat;
-    height: 100%;
+body {
+    position: absolute;
     width: 100%;
-    background-image: url("../img/fon.png");
+    height: 100%;
+    background: url(../img/дом_обр.png) no-repeat;
+    position: absolute;
+    margin: 0;
+    background-size: 100%;
 }
-nav ul li {
-    display: inline-block;
-    /* margin-left: 5px; */
-    padding: 10px;
-    transition: all 0.1s ease-in-out;
-    border: 0px solid red;
+
+main {
+    margin-top: 7rem;
+    margin-left: 9rem;
+    width: 24rem;
+    /* border: 2px solid black; */
+    float: left;
 }
-nav a {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: tomato;
+
+.spisok {
+    /* display: inline-block; */
+    margin-top: 10%;
 }
-nav a:hover {
-    color: red;
+
+ul {list-style-type: none;}
+
+a {text-decoration: none;}
+
+a:link {color: inherit;}
+
+a:visited {color: inherit;}
+
+.container {
+    margin: 10px;
+    width: 300px;
+    height: 65px;
+    border: 2px solid black;
 }
-nav ul li:hover {
-    border-bottom: 3px solid red;
+
+.zagolovok {
+    /* border: 1px solid green; */
+    font-family: Neucha;
+    font-size: 3.052rem;
+    line-height: 77px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.osntext {
+    /* border: 1px solid green; */
+    width: 21rem;
+    font-family: Neucha;
+    font-size: 1.25rem;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 30px;
+    margin: auto;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
