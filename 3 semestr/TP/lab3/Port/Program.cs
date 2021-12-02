@@ -37,22 +37,53 @@ namespace Port
                         }
 
                         Console.WriteLine("--------------------------------------------------");
-                        Console.Write("Введите название судна: ");
-                        string name = Console.ReadLine();
-                        
-                        Console.Write("Введите вместимость судна: ");
-                        int vmest = Convert.ToInt32(Console.ReadLine());
-                        
-                        Console.Write("Введите вес судна: ");
-                        int ves = Convert.ToInt32(Console.ReadLine());
-                        
-                        Console.Write("Введите кол-во людей на судне: ");
-                        int pasamount = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("--------------------------------------------------");
-                        
-                        Spisok[LastInd] = new Passenger(name, vmest, ves, pasamount);
-                        Console.WriteLine("Было создано судно с индексом - " + LastInd);
-                        LastInd++;
+                        Console.WriteLine("1 - Пассажирское ");
+                        Console.WriteLine("2 - Грузовое ");
+                        Console.WriteLine("Выберите тип судна: ");
+                        byte key1 = Convert.ToByte(Console.ReadLine());
+
+                        if (key1 == 1)
+                        {
+
+                            Console.WriteLine("--------------------------------------------------");
+                            Console.Write("Введите название судна: ");
+                            string name = Console.ReadLine();
+
+                            Console.Write("Введите вместимость судна: ");
+                            int vmest = Convert.ToInt32(Console.ReadLine());
+
+                            Console.Write("Введите вес судна: ");
+                            int ves = Convert.ToInt32(Console.ReadLine());
+
+                            Console.Write("Введите кол-во людей на судне: ");
+                            int pasamount = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("--------------------------------------------------");
+
+                            Spisok[LastInd] = new Passenger(name, vmest, ves, pasamount);
+                            Console.WriteLine("Было создано судно с индексом - " + LastInd);
+                            LastInd++;
+                        }
+                        else
+                        {
+                            Console.WriteLine("--------------------------------------------------");
+                            Console.Write("Введите название судна: ");
+                            string name = Console.ReadLine();
+
+                            Console.Write("Введите вместимость судна: ");
+                            int vmest = Convert.ToInt32(Console.ReadLine());
+
+                            Console.Write("Введите вес судна: ");
+                            int ves = Convert.ToInt32(Console.ReadLine());
+
+                            Console.Write("Введите кол-во груза на судне: ");
+                            int gruzamount = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("--------------------------------------------------");
+
+                            Spisok[LastInd] = new Gruzovoi(name, vmest, ves, gruzamount);
+                            Console.WriteLine("Было создано судно с индексом - " + LastInd);
+                            LastInd++;
+                            
+                        }
 
                         break;
 
@@ -131,6 +162,27 @@ namespace Port
         public void PlusPassenger(int plus_size)
         {
             PasAmount += plus_size;
+        }
+
+    }
+
+    class Gruzovoi : Sudno
+    {
+        private int GruzAmount;
+
+        public Gruzovoi(string name, int vmest, int ves, int gruzamount) : base(name, vmest, ves)
+        {
+            GruzAmount = gruzamount;
+        }
+
+        public override void PrintInfo()
+        {
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine("Название судна : " + Name);
+            Console.WriteLine("Вместимость людей : " + Vmest);
+            Console.WriteLine("Вес судна : " + Ves);
+            Console.WriteLine("Количество груза на борту : " + GruzAmount);
+            Console.WriteLine("--------------------------------------------------");
         }
 
     }

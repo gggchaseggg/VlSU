@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RY/m2MaD21/O1nh3oHX0wxz8s9bOgzPuGkO9uEE1ZtOBRB7ZhlxEkSTE31SMawrKn/RNja9z6SVeVZNWWArrLQ==",
+  "dgSpecHash": "QXwC1fDkjvVOUvyBAGSMOve+mgeRRj6aHOsZhY5B0GZphnKsTdZTYtQAowbLBOxLVXmQAQK604rKgegu892j3g==",
   "success": true,
-  "projectFilePath": "C:\\VlSU\\3 semestr\\TP\\lab3_1\\Port\\Port.csproj",
+  "projectFilePath": "C:\\VlSU\\3 semestr\\TP\\lab3\\Port\\Port.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
