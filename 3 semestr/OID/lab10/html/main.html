@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Дом</title>
+    <script type="text/javascript">
+        var img = [];
+        img[0] = "url('../img/дом_обр.png') no-repeat";
+        img[1] = "url('../img/kot.jpeg') no-repeat";
+        img[2] = "url('../img/aksolotl.jpg') no-repeat";
+        img[3] = "url('../img/ozero.jpg') no-repeat";
+        function changeBG() {
+            var i = Math.floor(Math.random()*img.length);
+            document.body.style.background = img[i];
+            document.body.style.backgroundSize = "100%";
+        }
+        window.onload=changeBG;
+    </script>
+</head>
+<body>
+    <img src="../img/logo.png" alt="лого" class="logo">
+    <main>
+        <div class="zagolovok">Информация о доме</div>
+        <div class="osntext">
+            Профессиональный подход, ориентация на пожелания клиента, - 
+            выберем лучшее для Вас! Новые квартиры: планировки, цены, фотографии 
+            строительства и его результатов. Пост охраны. Паркинг. Спорт площадки. 
+            Консьерж. Wi-Fi на территории.
+            Хотите купить квартиру в жилом комплексе Отражение? Звоните: опытные менеджеры 
+            ответят на имеющиеся вопросы, организуют просмотр недвижимости, помогут подобрать 
+            подходящее жилье и оформить необходимые документы.
+        </div>
+    </main>
+    <div class="dom">
+        <a href="#"><div class="itaj1"></div></a>
+        <div class="itaj1"><a href="plan.html">Этаж 1</a></div>
+        <div class="itaj2"><a href="plan.html">Этаж 2</a></div>
+        <div class="itaj3"><a href="plan.html">Этаж 3</a></div>
+        <div class="itaj4"><a href="plan.html">Этаж 4</a></div>
+    </div>
+
+    <a href="test.html" class="test">ТЕСТ</a>
+</body>
+
+</html>
