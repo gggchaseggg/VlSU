@@ -42,8 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.SaveSudnoInfo_Button = new System.Windows.Forms.Button();
             this.BackToMenu_Button = new System.Windows.Forms.Button();
-            this.TextBoxNamePassenger = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.TextBoxSat = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SavePassengerAmount_Button = new System.Windows.Forms.Button();
@@ -199,23 +197,6 @@
             this.BackToMenu_Button.UseVisualStyleBackColor = false;
             this.BackToMenu_Button.Click += new System.EventHandler(this.BackToMenu_Button_Click);
             // 
-            // TextBoxNamePassenger
-            // 
-            this.TextBoxNamePassenger.Location = new System.Drawing.Point(152, 61);
-            this.TextBoxNamePassenger.Name = "TextBoxNamePassenger";
-            this.TextBoxNamePassenger.Size = new System.Drawing.Size(160, 20);
-            this.TextBoxNamePassenger.TabIndex = 19;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label5.Location = new System.Drawing.Point(12, 59);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 20);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Название Судна";
-            // 
             // TextBoxSat
             // 
             this.TextBoxSat.Location = new System.Drawing.Point(152, 112);
@@ -253,8 +234,6 @@
             this.Controls.Add(this.SavePassengerAmount_Button);
             this.Controls.Add(this.TextBoxSat);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.TextBoxNamePassenger);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.BackToMenu_Button);
             this.Controls.Add(this.SaveSudnoInfo_Button);
             this.Controls.Add(this.TextBoxPassengerAmount);
@@ -293,8 +272,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button SaveSudnoInfo_Button;
         private System.Windows.Forms.Button BackToMenu_Button;
-        private System.Windows.Forms.TextBox TextBoxNamePassenger;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox TextBoxSat;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button SavePassengerAmount_Button;

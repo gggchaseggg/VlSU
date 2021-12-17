@@ -13,7 +13,7 @@ namespace port_form
 {
     public partial class Form1 : Form
     {
-        public string NameTB;
+        public string NameTB = "";
         public int VmestimostTB;
         public int VesTB;
         public int PassengerAmountTB;
@@ -26,14 +26,12 @@ namespace port_form
             label2.Visible = false;
             label3.Visible = false;
             label4.Visible = false;
-            label5.Visible = false;
             label6.Visible = false;
 
             TextBoxName.Visible = false;
             TextBoxVmestimost.Visible = false;
             TextBoxVes.Visible = false;
             TextBoxPassengerAmount.Visible = false;
-            TextBoxNamePassenger.Visible = false;
             TextBoxSat.Visible = false;
 
             SaveSudnoInfo_Button.Visible = false;
@@ -68,7 +66,15 @@ namespace port_form
         //Кнопка "ПОЛУЧИТЬ ИНФОРМАЦИЮ"
         private void GetInfo_Button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Информация о судне");
+            if (NameTB != "")
+            {
+                var sudno = new Passenger(NameTB, VmestimostTB, VesTB, PassengerAmountTB);
+                sudno.Info();
+            }
+            else
+            {
+                MessageBox.Show("Сначала добавьте судно!");
+            }
         }
         //Кнопка "ДОБАВИТЬ ПАССАЖИРОВ"
         private void AddPassenger_Button_Click(object sender, EventArgs e)
@@ -80,10 +86,8 @@ namespace port_form
             BackToMenu_Button.Visible = true;
             SavePassengerAmount_Button.Visible = true;
 
-            label5.Visible = true;
             label6.Visible = true;
 
-            TextBoxNamePassenger.Visible = true;
             TextBoxSat.Visible = true;
         }
         //Кнопка "ВЫХОД"
@@ -100,14 +104,12 @@ namespace port_form
             label2.Visible = false;
             label3.Visible = false;
             label4.Visible = false;
-            label5.Visible = false;
             label6.Visible = false;
 
             TextBoxName.Visible = false;
             TextBoxVmestimost.Visible = false;
             TextBoxVes.Visible = false;
             TextBoxPassengerAmount.Visible = false;
-            TextBoxNamePassenger.Visible = false;
             TextBoxSat.Visible = false;
 
             SaveSudnoInfo_Button.Visible = false;
@@ -129,17 +131,12 @@ namespace port_form
             VmestimostTB = Convert.ToInt32(TextBoxVmestimost.Text);
             VesTB = Convert.ToInt32(TextBoxVes.Text);
             PassengerAmountTB = Convert.ToInt32(TextBoxPassengerAmount.Text);
-
-            var sudno = new Passenger(NameTB, VmestimostTB, VesTB, PassengerAmountTB);
-
-
-            //Program.Main.AddSudno(NameTB, VmestimostTB, VesTB, PassengerAmountTB);
         }
         //Кнопки меню добавления пассажиров
         //Кнопки "СОХРАНИТЬ"
         private void SavePassengerAmount_Button_Click(object sender, EventArgs e)
         {
-
+            PassengerAmountTB += Convert.ToInt32(TextBoxSat.Text);
         }
     }
 }
