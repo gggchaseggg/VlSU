@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\VlSU\\3 semestr\\TP\\lab3\\Port\\Port.csproj",
         "projectName": "Port",
         "projectPath": "C:\\VlSU\\3 semestr\\TP\\lab3\\Port\\Port.csproj",
-        "packagesPath": "C:\\Users\\1nv1s\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\gggch\\.nuget\\packages\\",
         "outputPath": "C:\\VlSU\\3 semestr\\TP\\lab3\\Port\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1nv1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gggch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
