@@ -1,15 +1,25 @@
 ﻿using System;
+using System.Threading;
 
 namespace Port
 {
     delegate void MyDelegate(int param1);
+    delegate int DelegForLambda(int vmest, int pas);
 
     class Program
     {
-        
-        
+        static void potok()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Thread.Sleep(10000);
+                Console.WriteLine("Второй поток не нашел чем заняться");
+            }            
+        }
+
         static void Main(string[] args)
         {
+            new Thread(potok).Start();  
 
             Passenger[] SpisokPS = new Passenger[7];
             Gruzovoi[] SpisokGR = new Gruzovoi[7];
@@ -145,7 +155,7 @@ namespace Port
                                 Console.Write("Введите количество севших пассажиров: ");
                                 plssize = Convert.ToInt32(Console.ReadLine());
                                 MyDelegate method = SpisokPS[ind3].SelPas;
-                                SpisokPS[ind3].PlusPassenger(plssize,method);
+                                SpisokPS[ind3].PlusPassenger(plssize, method);
                                 break;
                             case 2:
                                 Console.Write("Введите индекс судна: ");
@@ -189,6 +199,8 @@ namespace Port
     {
         private int PasAmount;
 
+        DelegForLambda Svobodno = (x, y) => x - y;
+
         public Passenger(string name, int vmest, int ves, int pasamount) : base(name, vmest, ves)
         {
             this.PasAmount = pasamount;
@@ -213,16 +225,17 @@ namespace Port
             Console.WriteLine("Вместимость людей : " + Vmest);
             Console.WriteLine("Вес судна : " + Ves);
             Console.WriteLine("Находящиеся на борту люди : " + PasAmount);
+            Console.WriteLine("Свободно " + Svobodno(Vmest, PasAmount) + " мест");
             Zagruzhen();
             Console.WriteLine("--------------------------------------------------");
         }
 
         public void SelPas(int plus_size)
         {
-            Console.WriteLine(String.Format("Село пассажиров: {0}",plus_size));
+            Console.WriteLine(String.Format("Село пассажиров: {0}", plus_size));
         }
 
-        
+
 
         public void PlusPassenger(int plus_size, MyDelegate method)
         {
