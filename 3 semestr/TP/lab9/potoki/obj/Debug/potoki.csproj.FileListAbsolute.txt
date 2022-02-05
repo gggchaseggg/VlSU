@@ -1,0 +1,8 @@
+C:\VlSU\3 semestr\TP\lab9\potoki\bin\Debug\potoki.exe.config
+C:\VlSU\3 semestr\TP\lab9\potoki\bin\Debug\potoki.exe
+C:\VlSU\3 semestr\TP\lab9\potoki\bin\Debug\potoki.pdb
+C:\VlSU\3 semestr\TP\lab9\potoki\obj\Debug\potoki.csproj.AssemblyReference.cache
+C:\VlSU\3 semestr\TP\lab9\potoki\obj\Debug\potoki.csproj.SuggestedBindingRedirects.cache
+C:\VlSU\3 semestr\TP\lab9\potoki\obj\Debug\potoki.csproj.CoreCompileInputs.cache
+C:\VlSU\3 semestr\TP\lab9\potoki\obj\Debug\potoki.exe
+C:\VlSU\3 semestr\TP\lab9\potoki\obj\Debug\potoki.pdb

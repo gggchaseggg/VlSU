@@ -1,0 +1,8 @@
+C:\VlSU\3 semestr\TP\lab8\lambda\bin\Debug\lambda.exe.config
+C:\VlSU\3 semestr\TP\lab8\lambda\bin\Debug\lambda.exe
+C:\VlSU\3 semestr\TP\lab8\lambda\bin\Debug\lambda.pdb
+C:\VlSU\3 semestr\TP\lab8\lambda\obj\Debug\lambda.csproj.AssemblyReference.cache
+C:\VlSU\3 semestr\TP\lab8\lambda\obj\Debug\lambda.csproj.SuggestedBindingRedirects.cache
+C:\VlSU\3 semestr\TP\lab8\lambda\obj\Debug\lambda.csproj.CoreCompileInputs.cache
+C:\VlSU\3 semestr\TP\lab8\lambda\obj\Debug\lambda.exe
+C:\VlSU\3 semestr\TP\lab8\lambda\obj\Debug\lambda.pdb

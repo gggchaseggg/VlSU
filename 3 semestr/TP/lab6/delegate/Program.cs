@@ -144,7 +144,8 @@ namespace Port
                                 ind3 = Convert.ToByte(Console.ReadLine());
                                 Console.Write("Введите количество севших пассажиров: ");
                                 plssize = Convert.ToInt32(Console.ReadLine());
-                                SpisokPS[ind3].PlusPassenger(plssize);
+                                MyDelegate method = SpisokPS[ind3].SelPas;
+                                SpisokPS[ind3].PlusPassenger(plssize,method);
                                 break;
                             case 2:
                                 Console.Write("Введите индекс судна: ");
@@ -216,16 +217,17 @@ namespace Port
             Console.WriteLine("--------------------------------------------------");
         }
 
-        static void SelPas(int plus_size)
+        public void SelPas(int plus_size)
         {
-
+            Console.WriteLine(String.Format("Село пассажиров: {0}",plus_size));
         }
 
-        MyDelegate method = SelPas;
+        
 
-        public void PlusPassenger(int plus_size)
+        public void PlusPassenger(int plus_size, MyDelegate method)
         {
             this.PasAmount += plus_size;
+            method(plus_size);
         }
 
     }
