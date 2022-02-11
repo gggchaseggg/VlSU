@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="text-center">
+    <!-- Это, собственно, тэг повторителя. Ниже рассмотрено его
+содержимое -->
+        <asp:Repeater ID="repNews" runat="server">
+
+            <!-- Повторитель содержит HTML-шаблоны (template) для следующих
+            своих "частей":
+            - шаблон заголовка (HeaderTemplate)
+            - шаблон повторяемой части (ItemTemplate)
+            - шаблон завершающей строки (FooterTemplate)
+            Заголовок и завершающая строка будут присутствовать на
+            сгенерированной с использованием повторителя странице однократно. Повторяемая
+            же часть будет повторена столько раз, сколько элементов в коллекции у
+            связанного с повторителем бизнес-объекта: т.е. столько, сколько строк у
+            DataTable, (в случае, если DataTable привязана к повторителю) или столько,
+            сколько элементов у массива или списка...
+            В рассматриваемом нами примере мы "плодим" тэг обычной
+            HTML-таблицы, наполняя его при этом данными из бизнес-объекта
+            -->
+                <HeaderTemplate>
+                    <table width="100%">
+                        <tr>
+                            <td style="background-color: #ebebeb">
+                                <h3>Лента новостей:
+                                </h3>
+                            </td>
+                        </tr>
+                </HeaderTemplate>
+
+
+                <ItemTemplate>
+                    <tr>
+                        <td style=" background-color: #ebdada">
+                            <h4>
+                                <!-- <%!— Ниже, в рамках тэга <%# … %>– "серверный" C#-код, вписанный непосредственно в код веб-страницы. Этот код отвечает за отображение в данном конкретном месте значение соответствующего поля конкретного элемента коллекции. В данном случае – будет отображено
+                                    значение поля Title объекта класса NewsItem, находящегося в "привязанной" к повторителю коллекции.--%>
+                                    <%# DataBinder.Eval(Container.DataItem, "Title") %> -->
+                            </h4>
+                            <div>
+                                <%# DataBinder.Eval(Container.DataItem, "Text") %>
+                            </div>
+                            <div>Рейтинг статьи:&nbsp;
+                                <%# DataBinder.Eval(Container.DataItem, "ArticleRating") %>
+                            </div>
+                            <div style="text-align: right">
+                                <%# DataBinder.Eval(Container.DataItem, "Author") %>
+                            </div>
+                        </td>
+                    </tr>
+                </ItemTemplate>
+
+                <FooterTemplate>
+                    <tr>
+                        <td style="background-color: #daebeb">
+                            Здесь могла быть Ваша реклама!</td>
+                    </tr>
+                    </table>
+                </FooterTemplate>
+        </asp:Repeater>
+</div>
+</div>
