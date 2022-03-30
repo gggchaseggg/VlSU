@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\VlSU\\4 semestr\\TP\\lab1\\lab1_1\\lab1_1.csproj",
         "projectName": "lab1_1",
         "projectPath": "C:\\VlSU\\4 semestr\\TP\\lab1\\lab1_1\\lab1_1.csproj",
-        "packagesPath": "C:\\Users\\1nv1s\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\gggch\\.nuget\\packages\\",
         "outputPath": "C:\\VlSU\\4 semestr\\TP\\lab1\\lab1_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1nv1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gggch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

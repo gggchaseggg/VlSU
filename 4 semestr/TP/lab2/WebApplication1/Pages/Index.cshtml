@@ -1,0 +1,37 @@
+﻿@page 
+@model NewsModel 
+@{ ViewData["Title"] = "Новости"; }
+
+
+<div class="text-center">
+    <fieldset>
+        <legend>Добавление новой новости</legend>
+        <form method="post">
+            <label asp-for="formNews.title">Заголовок новости: </label>
+            <input type="text" asp-for="formNews.title" placeholder="Заголовок" autocomplete="off"/>
+            <span asp-validation-for="formNews.title" class="textErr"></span><br />
+
+            <label asp-for="formNews.text">Текст статьи: </label>
+            <input type="text" asp-for="formNews.text" placeholder="Статья"  autocomplete="off"/>
+            <span asp-validation-for="formNews.text" class="textErr"></span><br />
+
+            <label asp-for="formNews.raiting">Рейтинг статьи: </label>
+            <input type="text" asp-for="formNews.raiting" placeholder="8,5"  autocomplete="off"/>
+            <span asp-validation-for="formNews.raiting" class="textErr"></span><br />
+            
+            <button type="submit">Сохранить</button>
+        </form>
+    </fieldset>
+</div>
+<div style="text-align:center">
+    @if (@Model.NewsList.Count() >= 1)
+        @foreach (var nl in @Model.NewsList)
+        {
+            <div class="nl">
+                <span style="font-weight:bold">@nl.title <br></span>
+                 @nl.text <br>
+                 Рейтинг: @nl.raiting<br>
+            </div>
+        }
+        else{<span id="emptyList">Список пуст</span>}
+</div>
