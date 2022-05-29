@@ -1,0 +1,236 @@
+﻿++Решение "WebApplication1" ‎(проекты: 1 из 1)
+i:{00000000-0000-0000-0000-000000000000}:WebApplication1.sln
+++WebApplication1
+i:{00000000-0000-0000-0000-000000000000}:WebApplication1
+++Connected Services 
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:>319
+++Зависимости службы не обнаружены
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:>320
+++Properties
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\properties\
+++launchSettings.json
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\properties\launchsettings.json
+++wwwroot
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\
+++css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\css\
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\js\
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\
+++favicon.ico
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\favicon.ico
+++Зависимости
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:>318
+++Анализаторы
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:анализаторы
+++Пакеты
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:пакеты
+++Платформы
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:платформы
+++Model
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\model\
+++News.cs
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\model\news.cs
+++Pages
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\
+++Shared
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\shared\
+++_Layout.cshtml
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\shared\_layout.cshtml
+++_Layout.cshtml.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\shared\_layout.cshtml.css
+++_ValidationScriptsPartial.cshtml
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\shared\_validationscriptspartial.cshtml
+++_ViewImports.cshtml
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\_viewstart.cshtml
+++Error.cshtml
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\error.cshtml
+++Error.cshtml.cs
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\error.cshtml.cs
+++Index.cshtml
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\index.cshtml
+++Index.cshtml.cs
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\index.cshtml.cs
+++Privacy.cshtml
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\privacy.cshtml
+++appsettings.json
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\appsettings.json
+++Program.cs
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\program.cs
+++site.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\css\site.css
+++site.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\js\site.js
+++bootstrap
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\
+++jquery
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery\
+++jquery-validation
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation-unobtrusive\
+++Microsoft.AspNetCore.Analyzers
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++MySql.Data (8.0.29)
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:>337
+++Microsoft.AspNetCore.App
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\microsoft.netcore.app
+++Privacy.cshtml.cs
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\pages\privacy.cshtml.cs
+++appsettings.Development.json
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\appsettings.development.json
+++dist
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery\dist\
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery\license.txt
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++Новая папка
+++Domain
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\domain\
+++Base.cs
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\vlsu\4 semestr\tp\lab2\webapplication1\domain\base.cs
+++MySqlConnector (2.1.8)
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:>343
+++MySql.EntityFrameworkCore (6.0.1)
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:>344
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{ff3d6869-6687-4aed-b687-4f46ecdf3433}:c:\users\gggch\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll

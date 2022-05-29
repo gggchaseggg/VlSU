@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Raitings</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Raitings</h1>
+    <h3>Add</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-raiting" placeholder="37">
+        <input type="text" id="add-name" placeholder="Name">
+        <input type="submit" value="Add">
+    </form>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Raiting</th>
+            <th>Name</th>
+            <th></th>
+        </tr>
+        <tbody id="raitings"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>
