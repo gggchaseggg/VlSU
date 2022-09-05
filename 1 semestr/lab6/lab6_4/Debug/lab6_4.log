@@ -1,4 +1,0 @@
-﻿  lab6_4.cpp
-C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_4\lab6_4.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_4\lab6_4.cpp(13,15): warning C4244: return: преобразование "int" в "float", возможна потеря данных
-  lab6_4.vcxproj -> C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_4\Debug\lab6_4.exe
