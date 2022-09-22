@@ -1,2 +1,5 @@
 *.bak
 *.~vsdx
+/.vscode
+/.idea
+/target/
