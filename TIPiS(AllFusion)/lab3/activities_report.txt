@@ -1,0 +1,40 @@
+
+Number: 23
+Name: Проведение экзамена
+Duration (Minutes): 702,00
+Frequency: 1,00
+
+Number:   1
+Name: Подготовка экзаменационных билетов преподавателем
+Duration (Minutes): 20,00
+Frequency: 25,00
+
+Number:   2
+Name: Установка даты и  времени проведения
+Duration (Minutes): 5,00
+Frequency: 1,00
+
+Number:   3
+Name: Начало экзамена
+Duration (Minutes): 15,00
+Frequency: 1,00
+
+Number:   5
+Name: Выдача студенту экзаменационного билета
+Duration (Minutes): 2,00
+Frequency: 25,00
+
+Number:   6
+Name: Выполнение студентом работы
+Duration (Minutes): 90,00
+Frequency: 1,00
+
+Number:   4
+Name: Проставление автомата студенту
+Duration (Minutes): 2,00
+Frequency: 1,00
+
+Number:   7
+Name: Проставление оценок в ведомость
+Duration (Minutes): 40,00
+Frequency: 1,00
