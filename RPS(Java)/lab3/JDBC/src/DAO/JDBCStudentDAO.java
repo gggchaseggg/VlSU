@@ -1,6 +1,6 @@
 package DAO;
 
-import Models.Teacher;
+import Models.Student;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -9,13 +9,13 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherDAO extends DAO {
+public class JDBCStudentDAO extends DAO implements IStudentDAO {
 
-    public void create(Teacher teacher) throws SQLException {
+    public void create(Student student) throws SQLException {
         Connection conn = super.getConn();
 
         try (Statement stmt = conn.createStatement()) {
-            int changeCount = stmt.executeUpdate("insert into teacher (name, surname, birthday) values (" + teacher.toInsert() + ")");
+            int changeCount = stmt.executeUpdate("insert into student (name, surname, averageScore, course) values (" + student.toInsert() + ")");
             System.out.println("Количество созданных строк: " + changeCount);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -25,7 +25,7 @@ public class TeacherDAO extends DAO {
     public <T> void update(String paramName, T value, long id) throws SQLException {
         Connection conn = super.getConn();
         try (Statement stmt = conn.createStatement()) {
-            int changeCount = stmt.executeUpdate("update teacher set " + paramName + "=" + value + " where id=" + id);
+            int changeCount = stmt.executeUpdate("update student set " + paramName + "=" + value + " where id=" + id);
             System.out.println("Количество измененных строк: " + changeCount);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -35,50 +35,51 @@ public class TeacherDAO extends DAO {
     public void delete(long id) throws SQLException {
         Connection conn = super.getConn();
         try (Statement stmt = conn.createStatement()) {
-            int changeCount = stmt.executeUpdate("delete from teacher where id=" + id);
+            int changeCount = stmt.executeUpdate("delete from student where id=" + id);
             System.out.println("Количество удаленных строк: " + changeCount);
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
 
-    public Teacher getById(long id) throws SQLException {
+    public Student getById(long id) throws SQLException {
         Connection conn = super.getConn();
 
         try (Statement stmt = conn.createStatement()) {
-            ResultSet rs = stmt.executeQuery("select * from teacher where id=" + id);
+            ResultSet rs = stmt.executeQuery("select * from student where id=" + id);
             rs.next();
-            Teacher teacher = new Teacher(
+            Student student = new Student(
                     rs.getLong("id"),
                     rs.getString("name"),
                     rs.getString("surname"),
-                    rs.getDate("birthday"));
-            return teacher;
+                    rs.getFloat("averageScore"),
+                    rs.getLong("course"));
+            return student;
         } catch (SQLException e) {
             e.printStackTrace();
             return null;
         }
     }
 
-    public List<Teacher> getAll() throws SQLException {
+    public List<Student> getAll() throws SQLException {
         Connection conn = super.getConn();
 
-        ArrayList<Teacher> teachers = new ArrayList<>();
+        ArrayList<Student> students = new ArrayList<>();
 
         try (Statement stmt = conn.createStatement()) {
-            ResultSet rs = stmt.executeQuery("select * from teacher");
+            ResultSet rs = stmt.executeQuery("select * from student");
             while(rs.next()) {
-                Teacher teacher = new Teacher(
+                Student student = new Student(
                         rs.getLong("id"),
                         rs.getString("name"),
                         rs.getString("surname"),
-                        rs.getDate("birthday"));
-                teachers.add(teacher);
+                        rs.getFloat("averageScore"),
+                        rs.getLong("course"));
+                students.add(student);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return teachers;
+        return students;
     }
-
 }

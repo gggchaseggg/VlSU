@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Daos" removed="false">
+          <file>file://$MODULE_DIR$/daos.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -14,6 +23,19 @@
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../../JAVA/spring-framework-5.3.23/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../../../JAVA/spring-framework-5.3.23/libs" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../../../JAVA/spring-framework-5.3.23/libs" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../../../JAVA/spring-framework-5.3.23/libs" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
