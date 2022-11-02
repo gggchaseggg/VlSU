@@ -1,0 +1,46 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/app-context.xml</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>app</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>/WEB-INF/servlet-context.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>app</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <resource-ref>
+    <description>
+      This is a reference to the global Resource for MySQL database connection.
+    </description>
+    <res-ref-name>
+      jdbc/jdbc
+    </res-ref-name>
+    <res-type>
+      javax.sql.DataSource
+    </res-type>
+    <res-auth>
+      Container
+    </res-auth>
+  </resource-ref>
+</web-app>
