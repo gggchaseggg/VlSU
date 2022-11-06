@@ -10,6 +10,8 @@ namespace MicroserviceCompositeSC.Models
         public string Name { get; set; }
         [JsonPropertyName("disciplenes")]
         public string Disciplenes { get; set; }
+        [JsonPropertyName("departament")]
+        public string Departament { get; set; }
     }
 }
 

@@ -5,6 +5,7 @@
         public long Id { get; set; }
         public string Name { get; set; }
         public string Disciplenes { get; set; }
+        public string Departament { get; set; }
     }
 }
 

@@ -61,8 +61,8 @@ namespace MicroserviceСompositeSC.Controllers
             return null;
         }
 
-        [HttpGet("rating/{groupName}")]
-        public async Task<RatingOfGroup> GetAverageGroupRatingAsync(string groupName)
+        [HttpGet("score/{groupName}")]
+        public async Task<ScoreOfGroup> GetAverageGroupRatingAsync(string groupName)
         {
             HttpClientHandler clientHandler = new HttpClientHandler();
             clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
@@ -74,13 +74,47 @@ namespace MicroserviceСompositeSC.Controllers
                     List<Student> students = await JsonSerializer.DeserializeAsync<List<Student>>(await response.Content.ReadAsStreamAsync());
                     var collection = students.Where(st => st.GroupName == groupName).ToList();
                     long ratingSum = 0;
-                    foreach (var i in collection) ratingSum += i.Rating;
-                    return new RatingOfGroup()
+                    foreach (var i in collection) ratingSum += i.Score;
+                    return new ScoreOfGroup()
                     {
                         GroupName = groupName,
                         AverageRating = (double)ratingSum / collection.Count
                     };
 
+                }
+            }
+            return null;
+        }
+
+        [HttpGet("rating/{place}")]
+        public async Task<List<Student>> GetStudentByRatingPlace(string place)
+        {
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+            using (HttpClient client = new HttpClient(clientHandler))
+            {
+                HttpResponseMessage response = await client.GetAsync($"{_studentServiceAddress}");
+                if (response.IsSuccessStatusCode)
+                {
+                    List<Student> students = await JsonSerializer.DeserializeAsync<List<Student>>(await response.Content.ReadAsStreamAsync());
+                    return students.Where(student => student.PlaceInRanking ==  Convert.ToInt32(place)).ToList();
+                }
+            }
+            return null;
+        }
+
+        [HttpGet("departament/{departament}")]
+        public async Task<List<Course>> GetCourseByDepartament(string departament)
+        {
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+            using (HttpClient client = new HttpClient(clientHandler))
+            {
+                HttpResponseMessage response = await client.GetAsync($"{_courseServiceAddress}");
+                if (response.IsSuccessStatusCode)
+                {
+                    List<Course> courses = await JsonSerializer.DeserializeAsync<List<Course>>(await response.Content.ReadAsStreamAsync());
+                    return courses.Where(course => course.Departament == departament).ToList();
                 }
             }
             return null;

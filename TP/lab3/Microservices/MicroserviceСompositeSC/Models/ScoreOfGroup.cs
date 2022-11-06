@@ -2,7 +2,7 @@
 
 namespace MicroserviceСompositeSC.Models
 {
-    public class RatingOfGroup
+    public class ScoreOfGroup
     {
         [JsonPropertyName("groupName")]
         public string GroupName { get; set; }
