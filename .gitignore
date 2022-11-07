@@ -4,5 +4,6 @@
 *.~vsdx
 .vscode/
 .idea/
+.vs/
 **/target/
 **/out/
