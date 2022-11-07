@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj": {}
+    "C:\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj": {}
   },
   "projects": {
-    "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj": {
+    "C:\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj",
+        "projectUniqueName": "C:\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj",
         "projectName": "MicroserviceCourse",
-        "projectPath": "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj",
-        "packagesPath": "C:\\Users\\1nv1s\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\obj\\",
+        "projectPath": "C:\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\MicroserviceCourse.csproj",
+        "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
+        "outputPath": "C:\\VlSU\\TP\\lab3\\Microservices\\MicroserviceCourse\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1nv1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj": {}
+    "C:\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj": {}
   },
   "projects": {
-    "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj": {
+    "C:\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj",
+        "projectUniqueName": "C:\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj",
         "projectName": "MicroservicesStudent",
-        "projectPath": "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj",
-        "packagesPath": "C:\\Users\\1nv1s\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\obj\\",
+        "projectPath": "C:\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\MicroservicesStudent.csproj",
+        "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
+        "outputPath": "C:\\VlSU\\TP\\lab3\\Microservices\\MicroservicesStudent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1nv1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,12 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
             },
