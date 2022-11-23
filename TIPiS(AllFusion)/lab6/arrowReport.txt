@@ -1,0 +1,61 @@
+Arrow Name              	Arrow Status            	Arrow Source            	Arrow Source Type       	Arrow Dest.             	Arrow Dest. Type        	
+________________________	________________________	________________________	________________________	________________________	________________________	
+
+Unnamed Arrow / 18      	WORKING                 	                        	                        	Выполнение заданий      	Input                   	
+
+Unnamed Arrow / 19      	WORKING                 	Выполнение заданий      	Output                  	                        	                        	
+
+Абитуриенты             	WORKING                 	{ Border }              	Input                   	Прием студентов         	Input                   	
+
+Вопросы по теме         	WORKING                 	Список вопросов         	Data Store              	Формирование теста      	Input                   	
+
+Информация о доступности	WORKING                 	Список студентов        	Data Store              	Список студентов        	Data Store              	
+                        	                        	подключенных к курсу    	                        	подключенных к курсу    	                        	
+
+                        	                        	Проверка доступности    	Output                  	Проверка доступности    	Input                   	
+                        	                        	теста                   	                        	теста                   	                        	
+
+Квалифицированные       	WORKING                 	Выпуск и трудоустройство	Output                  	{ Border }              	Output                  	
+работники               	                        	                        	                        	                        	                        	
+
+Обученные материалу     	WORKING                 	Проведение лекций       	Output                  	Выполнение заданий      	Input                   	
+студенты                	                        	                        	                        	                        	                        	
+
+Обученные студенты      	WORKING                 	                        	                        	Выпуск и трудоустройство	Input                   	
+
+Отчисленные студенты    	WORKING                 	                        	                        	{ Border }              	Output                  	
+
+Оценка за тест          	WORKING                 	Выполнение теста        	Output                  	Список оценок студентов 	Data Store              	
+                        	                        	студентом               	                        	                        	                        	
+
+Преподавательский состав	WORKING                 	{ Border }              	Mechanism               	Прием студентов         	Mechanism               	
+
+                        	                        	                        	                        	Выпуск и трудоустройство	Mechanism               	
+
+                        	                        	                        	                        	Проведение лекций       	Mechanism               	
+
+Рабочая программа       	WORKING                 	{ Border }              	Control                 	                        	                        	
+
+Сайт                    	WORKING                 	{ Border }              	Mechanism               	                        	                        	
+
+Студенты                	WORKING                 	Прием студентов         	Output                  	Проведение лекций       	Input                   	
+
+                        	                        	                        	                        	Выполнение заданий      	Mechanism               	
+
+Студенты сдавшие задания	WORKING                 	Выполнение заданий      	Output                  	                        	                        	
+
+Сформированный тест     	WORKING                 	Формирование теста      	Output                  	Студент                 	External                	
+
+                        	                        	Формирование теста      	Output                  	Выполнение теста        	Input                   	
+                        	                        	                        	                        	студентом               	                        	
+
+ФГОС                    	WORKING                 	{ Border }              	Control                 	Прием студентов         	Control                 	
+
+                        	                        	                        	                        	Выпуск и трудоустройство	Control                 	
+
+                        	                        	                        	                        	Проведение лекций       	Control                 	
+
+                        	                        	                        	                        	Выполнение заданий      	Control                 	
+
+Экстерны                	WORKING                 	                        	                        	Выпуск и трудоустройство	Input                   	
+

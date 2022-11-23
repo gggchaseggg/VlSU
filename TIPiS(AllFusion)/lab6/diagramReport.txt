@@ -1,0 +1,74 @@
+Report for Diagram: A2, Процесс обучения
+
+
+Activity Name: Проведение лекций
+Activity Status: WORKING
+Activity Author: Grachev Daniil
+Object Type: Activity
+Activity Number: A21
+
+Activity Name: Выполнение заданий
+Activity Status: WORKING
+Activity Author: Grachev Daniil
+Object Type: Activity
+Activity Number: A22
+
+Activity Name: Просмотр видеоуроков
+Activity Status: WORKING
+Activity Author: Grachev Daniil
+Object Type: Activity
+Activity Number: A23
+
+Activity Name: Проведение экзамена
+Activity Status: WORKING
+Activity Author: Grachev Daniil
+Object Type: Activity
+Activity Number: A24
+
+Link Name: Студенты
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: ФГОС
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Обученные студенты
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Преподавательский состав
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Отчисленные студенты
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Обученные материалу студенты
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Студенты сдавшие задания
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Экстерны
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Рабочая программа
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Сайт
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Unnamed Arrow / 18
+Link Status: WORKING
+Link Author: Grachev Daniil
+
+Link Name: Unnamed Arrow / 19
+Link Status: WORKING
+Link Author: Grachev Daniil

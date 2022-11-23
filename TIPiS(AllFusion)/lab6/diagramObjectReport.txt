@@ -1,0 +1,163 @@
+Name: Процесс обучения
+Number: 2
+Status: WORKING
+Object Type: Activity
+Input Name: Студенты
+Control Name: Рабочая программа
+Output Name: Отчисленные студенты
+Mechanism Name: Сайт
+
+Control Name: ФГОС
+Output Name: Экстерны
+Mechanism Name: Преподавательский состав
+
+Output Name: Обученные студенты
+
+Name: Проведение лекций
+Number:   21
+Status: WORKING
+Object Type: Activity
+Input Name: Студенты
+Control Name: ФГОС
+Output Name: Обученные материалу студенты
+Mechanism Name: Преподавательский состав
+
+Name: Выполнение заданий
+Number:   22
+Status: WORKING
+Object Type: Activity
+Input Name: Unnamed Arrow / 18
+Control Name: ФГОС
+Output Name: Unnamed Arrow / 19
+Mechanism Name: Студенты
+
+Input Name: Обученные материалу студенты
+Output Name: Студенты сдавшие задания
+
+Name: Проверка доступности теста  
+Number:     221
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 2
+Output Name: Информация о доступности
+
+Input Name: Информация о доступности
+
+Name: Выполнение теста студентом  
+Number:     223
+Status: WORKING
+Object Type: Activity
+Input Name: Сформированный тест
+Output Name: Оценка за тест
+
+Name: Формирование теста  
+Number:     222
+Status: WORKING
+Object Type: Activity
+Input Name: Вопросы по теме
+Output Name: Сформированный тест
+
+Output Name: Сформированный тест
+
+Name: Просмотр видеоуроков
+Number:   23
+Status: WORKING
+Object Type: Activity
+Input Name: Unnamed Arrow / 19
+Control Name: Рабочая программа
+Output Name: Unnamed Arrow / 18
+Mechanism Name: Сайт
+
+Name: Открытие сайта 
+Number:     8
+Status: WORKING
+Object Type: Activity
+Output Name: Untitled Output 0
+
+Name: Просмотр видеоурока от лектора 
+Number:     9
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 0
+Output Name: Untitled Output 2
+
+Output Name: Untitled Output 1
+
+Name: Написание конспекта
+Number:     10
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 4
+Output Name: Untitled Output 5
+
+Name: Выполнение теста по видеоуроку
+Number:     11
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 7
+Output Name: Untitled Output 8
+
+Output Name: Untitled Output 6
+
+Name: Проведение экзамена
+Number:   24
+Status: WORKING
+Object Type: Activity
+Input Name: Студенты сдавшие задания
+Control Name: ФГОС
+Output Name: Экстерны
+Mechanism Name: Преподавательский состав
+
+Input Name: Студенты
+Output Name: Обученные студенты
+
+Output Name: Отчисленные студенты
+
+Name: Подготовка экзаменационных билетов преподавателем
+Number:     1
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 0
+Output Name: Untitled Output 1
+
+Name: Установка даты и  времени проведения
+Number:     2
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 1
+Output Name: Untitled Output 2
+
+Name: Начало экзамена
+Number:     3
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 2
+Output Name: Untitled Output 3
+
+Name: Выдача студенту экзаменационного билета
+Number:     5
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 5
+Output Name: Untitled Output 7
+
+Name: Выполнение студентом работы
+Number:     6
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 7
+Output Name: Untitled Output 8
+
+Name: Проставление автомата студенту
+Number:     4
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 4
+Output Name: Untitled Output 6
+
+Name: Проставление оценок в ведомость
+Number:     7
+Status: WORKING
+Object Type: Activity
+Input Name: Untitled Input 9
+Output Name: Untitled Output 10
