@@ -1,0 +1,13 @@
+C:\git\VlSU\TP\lab6\lab6\lab6\bin\Debug\net6.0\lab6.dll.config
+C:\git\VlSU\TP\lab6\lab6\lab6\bin\Debug\net6.0\lab6.deps.json
+C:\git\VlSU\TP\lab6\lab6\lab6\bin\Debug\net6.0\lab6.dll
+C:\git\VlSU\TP\lab6\lab6\lab6\bin\Debug\net6.0\lab6.pdb
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\lab6.csproj.AssemblyReference.cache
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\lab6.AssemblyInfoInputs.cache
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\lab6.AssemblyInfo.cs
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\lab6.csproj.CoreCompileInputs.cache
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\lab6.dll
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\refint\lab6.dll
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\lab6.pdb
+C:\git\VlSU\TP\lab6\lab6\lab6\obj\Debug\net6.0\ref\lab6.dll
