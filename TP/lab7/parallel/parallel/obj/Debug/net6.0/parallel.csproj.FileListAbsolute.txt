@@ -1,0 +1,15 @@
+C:\VlSU\TP\lab7\parallel\parallel\bin\Debug\net6.0\parallel.exe
+C:\VlSU\TP\lab7\parallel\parallel\bin\Debug\net6.0\parallel.deps.json
+C:\VlSU\TP\lab7\parallel\parallel\bin\Debug\net6.0\parallel.runtimeconfig.json
+C:\VlSU\TP\lab7\parallel\parallel\bin\Debug\net6.0\parallel.dll
+C:\VlSU\TP\lab7\parallel\parallel\bin\Debug\net6.0\parallel.pdb
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.csproj.AssemblyReference.cache
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.GeneratedMSBuildEditorConfig.editorconfig
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.AssemblyInfoInputs.cache
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.AssemblyInfo.cs
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.csproj.CoreCompileInputs.cache
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.dll
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\refint\parallel.dll
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.pdb
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\parallel.genruntimeconfig.cache
+C:\VlSU\TP\lab7\parallel\parallel\obj\Debug\net6.0\ref\parallel.dll
