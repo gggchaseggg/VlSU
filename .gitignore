@@ -1,0 +1,10 @@
+*.bak
+*.dwl
+*.dwl2
+*.~vsdx
+.vscode/
+.idea/
+.vs/
+**/target/
+**/out/
+.DS_Store
