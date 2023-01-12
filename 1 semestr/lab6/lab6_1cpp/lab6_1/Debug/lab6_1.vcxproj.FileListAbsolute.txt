@@ -1,2 +1,0 @@
-C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_1cpp\lab6_1\Debug\lab6_1.exe
-C:\Users\gggchaseggg\Desktop\1_семестр\ОАП\лаб6\lab6_1cpp\lab6_1\Debug\lab6_1.pdb
