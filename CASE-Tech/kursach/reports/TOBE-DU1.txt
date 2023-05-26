@@ -1,0 +1,8 @@
+Report for Diagram: A-0, Деятельность университета
+
+
+Activity Name: Деятельность университета
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A0

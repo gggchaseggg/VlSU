@@ -1,0 +1,306 @@
+
+Arrow Name: Абитуриент с личным делом
+Arrow Status: WORKING
+Arrow Source: Заведение  личного дела
+Arrow Source Type: Output
+Arrow Dest.: Подписание личного  дела деканатом
+Arrow Dest. Type: Input
+
+Arrow Name: Абитуриенты
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Input
+Arrow Dest.: Рассказ о доступных направлениях
+Arrow Dest. Type: Input
+
+Arrow Name: Абитуриенты подавшие документы
+Arrow Status: WORKING
+Arrow Source: Подписание личного  дела деканатом
+Arrow Source Type: Output
+Arrow Dest.: Формирование списка поступивших
+Arrow Dest. Type: Input
+
+Arrow Name: Выполненная работа
+Arrow Status: WORKING
+Arrow Source: Выполнение  лабораторной работы
+Arrow Source Type: Output
+Arrow Dest.: Проверка  лабораторной работы
+Arrow Dest. Type: Input
+
+Arrow Name: Выполненный тест
+Arrow Status: WORKING
+Arrow Source: Выполнение теста
+Arrow Source Type: Output
+Arrow Dest.: Проверка теста
+Arrow Dest. Type: Input
+
+Arrow Name: Исправленная работа
+Arrow Status: WORKING
+Arrow Source: Исправление ошибок
+Arrow Source Type: Output
+Arrow Dest.: Проверка  лабораторной работы
+Arrow Dest. Type: Input
+
+Arrow Name: Исправленные документы
+Arrow Status: WORKING
+Arrow Source: Возврат документов
+Arrow Source Type: Output
+Arrow Dest.: Прием и проверка  документов
+Arrow Dest. Type: Input
+
+Arrow Name: Источники материалов
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Input
+Arrow Dest.: Подготовка материалов  для лекции
+Arrow Dest. Type: Input
+
+Arrow Name: Квалифицированные работники
+Arrow Status: WORKING
+Arrow Source: Выпуск и трудоустройство
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Name: Материалы к лекции
+Arrow Status: WORKING
+Arrow Source: Подготовка материалов  для лекции
+Arrow Source Type: Output
+Arrow Dest.: Рассказ материала студентам
+Arrow Dest. Type: Control
+
+Arrow Name: Не принятые абитуриенты
+Arrow Status: WORKING
+Arrow Source: Формирование списка поступивших
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Source: Возврат документов
+Arrow Source Type: Output
+
+Arrow Name: Неправильные документы
+Arrow Status: WORKING
+Arrow Source: Прием и проверка  документов
+Arrow Source Type: Output
+Arrow Dest.: Возврат документов
+Arrow Dest. Type: Input
+
+Arrow Name: Обученные материалу студенты
+Arrow Status: WORKING
+Arrow Source: Рассказ материала студентам
+Arrow Source Type: Output
+Arrow Dest.: Выдача методички
+Arrow Dest. Type: Input
+
+Arrow Dest.: Выдача  листа с тестом
+Arrow Dest. Type: Input
+
+Arrow Name: Отчисленные студенты
+Arrow Status: WORKING
+Arrow Source: Проведение экзамена
+Arrow Source Type: Output
+Arrow Dest.: { Border }
+Arrow Dest. Type: Output
+
+Arrow Name: Правильные документы
+Arrow Status: WORKING
+Arrow Source: Прием и проверка  документов
+Arrow Source Type: Output
+Arrow Dest.: Заведение  личного дела
+Arrow Dest. Type: Input
+
+Arrow Name: Преподавательский состав
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Mechanism
+Arrow Dest.: Выпуск и трудоустройство
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Формирование списка поступивших
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Проведение экзамена
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Рассказ о доступных направлениях
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Прием и проверка  документов
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Заведение  личного дела
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Возврат документов
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Подписание личного  дела деканатом
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Подготовка материалов  для лекции
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Учет посещаемости студентов в журнале
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Рассказ материала студентам
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Выдача  листа с тестом
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Выдача методички
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Проверка  лабораторной работы
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Проверка теста
+Arrow Dest. Type: Mechanism
+
+Arrow Name: Проинформированные абитуриенты
+Arrow Status: WORKING
+Arrow Source: Рассказ о доступных направлениях
+Arrow Source Type: Output
+Arrow Dest.: Прием и проверка  документов
+Arrow Dest. Type: Input
+
+Arrow Name: Работа требующая исправлений
+Arrow Status: WORKING
+Arrow Source: Проверка  лабораторной работы
+Arrow Source Type: Output
+Arrow Dest.: Исправление ошибок
+Arrow Dest. Type: Input
+
+Arrow Name: Рабочая программа
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Control
+Arrow Dest.: Учет посещаемости студентов в журнале
+Arrow Dest. Type: Control
+
+Arrow Dest.: Выдача  листа с тестом
+Arrow Dest. Type: Control
+
+Arrow Dest.: Выдача методички
+Arrow Dest. Type: Control
+
+Arrow Dest.: Выполнение теста
+Arrow Dest. Type: Control
+
+Arrow Dest.: Выполнение  лабораторной работы
+Arrow Dest. Type: Control
+
+Arrow Dest.: Проверка  лабораторной работы
+Arrow Dest. Type: Control
+
+Arrow Dest.: Проверка теста
+Arrow Dest. Type: Control
+
+Arrow Dest.: Исправление ошибок
+Arrow Dest. Type: Control
+
+Arrow Name: Сдавшие экзамены студенты
+Arrow Status: WORKING
+Arrow Source: Проведение экзамена
+Arrow Source Type: Output
+Arrow Dest.: Выпуск и трудоустройство
+Arrow Dest. Type: Input
+
+Arrow Name: Студенты
+Arrow Status: WORKING
+Arrow Source: Формирование списка поступивших
+Arrow Source Type: Output
+Arrow Dest.: Проведение экзамена
+Arrow Dest. Type: Input
+
+Arrow Dest.: Учет посещаемости студентов в журнале
+Arrow Dest. Type: Input
+
+Arrow Dest.: Выполнение теста
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Выполнение  лабораторной работы
+Arrow Dest. Type: Mechanism
+
+Arrow Dest.: Исправление ошибок
+Arrow Dest. Type: Mechanism
+
+Arrow Name: Студенты посещающие лекции
+Arrow Status: WORKING
+Arrow Source: Учет посещаемости студентов в журнале
+Arrow Source Type: Output
+Arrow Dest.: Рассказ материала студентам
+Arrow Dest. Type: Input
+
+Arrow Name: Студенты с методичкой
+Arrow Status: WORKING
+Arrow Source: Выдача методички
+Arrow Source Type: Output
+Arrow Dest.: Выполнение  лабораторной работы
+Arrow Dest. Type: Input
+
+Arrow Name: Студенты с тестом
+Arrow Status: WORKING
+Arrow Source: Выдача  листа с тестом
+Arrow Source Type: Output
+Arrow Dest.: Выполнение теста
+Arrow Dest. Type: Input
+
+Arrow Name: Студенты сдавшие задания
+Arrow Status: WORKING
+Arrow Source: Исправление ошибок
+Arrow Source Type: Output
+Arrow Dest.: Проведение экзамена
+Arrow Dest. Type: Input
+
+Arrow Source: Проверка теста
+Arrow Source Type: Output
+
+Arrow Name: ФГОС
+Arrow Status: WORKING
+Arrow Source: { Border }
+Arrow Source Type: Control
+Arrow Dest.: Выпуск и трудоустройство
+Arrow Dest. Type: Control
+
+Arrow Dest.: Формирование списка поступивших
+Arrow Dest. Type: Control
+
+Arrow Dest.: Проведение экзамена
+Arrow Dest. Type: Control
+
+Arrow Dest.: Рассказ о доступных направлениях
+Arrow Dest. Type: Control
+
+Arrow Dest.: Прием и проверка  документов
+Arrow Dest. Type: Control
+
+Arrow Dest.: Заведение  личного дела
+Arrow Dest. Type: Control
+
+Arrow Dest.: Возврат документов
+Arrow Dest. Type: Control
+
+Arrow Dest.: Подписание личного  дела деканатом
+Arrow Dest. Type: Control
+
+Arrow Dest.: Подготовка материалов  для лекции
+Arrow Dest. Type: Control
+
+Arrow Dest.: Учет посещаемости студентов в журнале
+Arrow Dest. Type: Control
+
+Arrow Dest.: Выдача  листа с тестом
+Arrow Dest. Type: Control
+
+Arrow Dest.: Выдача методички
+Arrow Dest. Type: Control
+
+Arrow Name: Экстерны
+Arrow Status: WORKING
+Arrow Source: Проведение экзамена
+Arrow Source Type: Output
+Arrow Dest.: Выпуск и трудоустройство
+Arrow Dest. Type: Input

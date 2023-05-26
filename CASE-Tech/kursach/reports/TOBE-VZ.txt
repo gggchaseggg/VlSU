@@ -1,0 +1,50 @@
+Report for Diagram: A2.2, Выполнение заданий
+
+
+Activity Name: Открытие  теста на сайте
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.1
+
+Activity Name: Размещение методички на сайте
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.2
+
+Activity Name: Выполнение теста
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.3
+
+Activity Name: Выполнение  лабораторной работы
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.4
+
+Activity Name: Размещение отчета на сайте
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.5
+
+Activity Name: Проверка  лабораторной работы
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.6
+
+Activity Name: Автоматическая  проверка теста  сайтом
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.7
+
+Activity Name: Исправление ошибок
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.2.8

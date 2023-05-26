@@ -1,0 +1,44 @@
+Report for Diagram: A22, Выполнение заданий
+
+
+Activity Name: Выдача  листа с тестом
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A221
+
+Activity Name: Выдача методички
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A222
+
+Activity Name: Выполнение теста
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A223
+
+Activity Name: Выполнение  лабораторной работы
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A224
+
+Activity Name: Проверка  лабораторной работы
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A225
+
+Activity Name: Проверка теста
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A226
+
+Activity Name: Исправление ошибок
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A227

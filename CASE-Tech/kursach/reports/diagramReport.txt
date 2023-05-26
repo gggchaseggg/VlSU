@@ -1,0 +1,163 @@
+Report for Diagram: A-0, Деятельность университета
+
+
+Activity Name: Деятельность университета
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A0
+
+Report for Diagram: A0, Деятельность университета
+
+
+Activity Name: Прием студентов
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1
+
+Activity Name: Процесс обучения
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2
+
+Activity Name: Выпуск и трудоустройство
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A3
+
+Report for Diagram: A1, Прием студентов
+
+
+Activity Name: Проведение приемной комиссии
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A11
+
+Activity Name: Формирование списка поступивших
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A12
+
+Report for Diagram: A11, Проведение приемной комиссии
+
+
+Activity Name: Рассказ о доступных направлениях
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A111
+
+Activity Name: Прием и проверка  документов
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A112
+
+Activity Name: Заведение  личного дела
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A113
+
+Activity Name: Возврат документов
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A114
+
+Activity Name: Подписание личного  дела деканатом
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A115
+
+Report for Diagram: A2, Процесс обучения
+
+Activity Name: Проведение лекций
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A21
+
+Activity Name: Выполнение заданий
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A22
+
+Activity Name: Проведение экзамена
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A23
+
+Report for Diagram: A21, Проведение лекций
+
+
+Activity Name: Подготовка материалов  для лекции
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A211
+
+Activity Name: Учет посещаемости студентов в журнале
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A212
+
+Activity Name: Рассказ материала студентам
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A213
+
+Report for Diagram: A22, Выполнение заданий
+
+
+Activity Name: Выдача  листа с тестом
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A221
+
+Activity Name: Выдача методички
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A222
+
+Activity Name: Выполнение теста
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A223
+
+Activity Name: Выполнение  лабораторной работы
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A224
+
+Activity Name: Проверка  лабораторной работы
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A225
+
+Activity Name: Проверка теста
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A226
+
+Activity Name: Исправление ошибок
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A227

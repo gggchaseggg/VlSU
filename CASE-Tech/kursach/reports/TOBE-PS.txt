@@ -1,0 +1,20 @@
+Report for Diagram: A1, Прием студентов
+
+
+Activity Name: Заполнение сайта  информацией для абитуриентов
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1.1
+
+Activity Name: Проведение приемной комиссии онлайн на сайте
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1.2
+
+Activity Name: Формирование списка поступивших  и отображение его на сайте
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1.3

@@ -1,0 +1,20 @@
+Report for Diagram: A2, Процесс обучения
+
+
+Activity Name: Проведение лекций
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A21
+
+Activity Name: Выполнение заданий
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A22
+
+Activity Name: Проведение экзамена
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A23

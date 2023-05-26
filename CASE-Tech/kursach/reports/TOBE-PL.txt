@@ -1,0 +1,32 @@
+Report for Diagram: A2.1, Проведение лекций
+
+
+Activity Name: Подготовка материалов  для лекции
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.1.1
+
+Activity Name: Учет посещаемости студентов в журнале
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.1.2
+
+Activity Name: Рассказ материала студентам
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.1.3
+
+Activity Name: Запись лекций на видео
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.1.4
+
+Activity Name: Размещение записей лекций на сайте
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2.1.5

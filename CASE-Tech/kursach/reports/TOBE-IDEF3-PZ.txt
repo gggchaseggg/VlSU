@@ -1,0 +1,74 @@
+Report for Diagram: A2.4.1, Проведение экзамена
+
+
+Activity Name: Выполнение  студентом работы
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 6
+
+Activity Name: Подготовка экзаменационных  билетов преподавателем
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 1
+
+Activity Name: Установка даты и  времени проведения
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 2
+
+Activity Name: Начало экзамена
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 3
+
+Activity Name: Проверка  письменной части
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 8
+
+Activity Name: Ответ  теоретической части
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 7
+
+Activity Name: Проставление автомата студенту
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 4
+
+Activity Name: Выдача студенту экзаменационного билета
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 5
+
+Activity Name: Переподготовка студента
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 9
+
+Activity Name: Проставление  оценки в зачетку
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 11
+
+Activity Name: Проставление  оценок в ведомость
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 12
+
+Activity Name: Повторный ответ
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: 10

@@ -1,0 +1,32 @@
+Report for Diagram: A11, Проведение приемной комиссии
+
+
+Activity Name: Рассказ о доступных направлениях
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A111
+
+Activity Name: Прием и проверка  документов
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A112
+
+Activity Name: Заведение  личного дела
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A113
+
+Activity Name: Возврат документов
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A114
+
+Activity Name: Подписание личного  дела деканатом
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A115

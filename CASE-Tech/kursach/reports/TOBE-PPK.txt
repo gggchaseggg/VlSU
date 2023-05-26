@@ -1,0 +1,20 @@
+Report for Diagram: A1.2, Проведение приемной комиссии онлайн на сайте
+
+
+Activity Name: Показ информации  об универе
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1.2.1
+
+Activity Name: Прием документов  в онлайн формате
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1.2.2
+
+Activity Name: Формирование  записи в БД
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1.2.3

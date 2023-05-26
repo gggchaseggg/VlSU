@@ -1,0 +1,20 @@
+Report for Diagram: A0, Деятельность университета
+
+
+Activity Name: Прием студентов
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A1
+
+Activity Name: Процесс обучения
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A2
+
+Activity Name: Выпуск и трудоустройство
+Activity Status: WORKING
+Activity Author: Grachev Daniil Alekseevich
+Object Type: Activity
+Activity Number: A3
