@@ -157,3 +157,42 @@ const task8 = () => {
     .innerHTML = `Площадь больше ${max} в ${maxCount} трапециях`
 
 }
+
+function ObjectTrapezoid(left_down, left_top, right_top, right_down) {
+  this.left_down = left_down
+  this.left_top = left_top
+  this.right_top = right_top
+  this.right_down = right_down
+  this.getArea = function () {
+    return Math.abs((((this.right_top[0] - this.left_top[0]) + (this.right_down[0] - this.left_down[0])) / 2) * (this.left_top[1] - this.left_down[1]))
+  }
+}
+
+const task9 = () => {
+  const block = document.querySelector('.task9>.display')
+  let text = ''
+  const max = Math.floor(Math.random() * 1000)
+  let maxCount = 0
+
+  const traps = []
+
+  for (let i = 0; i < Math.floor(Math.random() * 10); i++) {
+    const y1 = Math.floor(Math.random() * 100)
+    const y2 = Math.floor(Math.random() * 100)
+    traps.push(new ObjectTrapezoid(
+      [Math.floor(Math.random() * 100), y1],
+      [Math.floor(Math.random() * 100), y2],
+      [Math.floor(Math.random() * 100), y2],
+      [Math.floor(Math.random() * 100), y1]))
+  }
+  text += '['
+  for (const trap of traps) {
+    text += `${trap.getArea()}, `
+    if (trap.getArea() > max) maxCount++
+  }
+  text += ']'
+  block.innerHTML = text
+
+  document.querySelector('.task9>.display2')
+    .innerHTML = `Площадь больше ${max} в ${maxCount} трапециях`
+}

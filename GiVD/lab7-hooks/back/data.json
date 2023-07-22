@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Мобильный телефон",
+    "manufactureDate": "2002-12-08",
+    "price": 12599
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук",
+    "manufactureDate": "2014-04-14",
+    "price": 44500
+  },
+  {
+    "id": 3,
+    "name": "Телевизор Samsung",
+    "manufactureDate": "2022-08-08",
+    "price": 45999
+  },
+  {
+    "id": 4,
+    "name": "Iphone X",
+    "manufactureDate": "2023-12-13",
+    "price": 66499
+  },
+  {
+    "id": 5,
+    "name": "Мышь беспроводная/проводная Logitech G PRO Wireless",
+    "manufactureDate": "20022-09-25",
+    "price": 10499
+  },
+  {
+    "id": 6,
+    "name": "Электрическая плита Gorenje GEC5B41WG белый",
+    "manufactureDate": "2020-05-16",
+    "price": 39999
+  },
+  {
+    "id": 7,
+    "name": "27\" Монитор HUAWEI MateView GT XWU-CBA черный",
+    "manufactureDate": "2022-10-19",
+    "price": 29999
+  },
+  {
+    "id": 8,
+    "name": "Кабель соединительный DEXP DisplayPort - HDMI, 1.8 м",
+    "manufactureDate": "2023-05-13",
+    "price": 750
+  },
+  {
+    "id": 9,
+    "name": "16\" Ноутбук HUAWEI MateBook D16 RLEFG-X серый",
+    "manufactureDate": "2023-12-30",
+    "price": 112999
+  },
+  {
+    "id": 10,
+    "name": "15.6\" Сумка Aceline HT1509NB",
+    "manufactureDate": "2022-11-18",
+    "price": 2299
+  },
+  {
+    "id": 11,
+    "name": "Проводная гарнитура Razer Kraken X Lite черный",
+    "manufactureDate": "2023-01-01",
+    "price": 3499
+  },
+  {
+    "id": 12,
+    "name": "Домашняя аудиосистема LG ON88",
+    "manufactureDate": "2021-07-21",
+    "price": 39999
+  },
+  {
+    "id": 13,
+    "name": "16.2\" Ноутбук Apple MacBook Pro серый",
+    "manufactureDate": "2021-12-12",
+    "price": 319999
+  },
+  {
+    "id": 14,
+    "name": "Переходник FinePower Elementary EP002",
+    "manufactureDate": "2020-05-27",
+    "price": 199
+  },
+  {
+    "id": 15,
+    "name": "Bluetooth-гарнитура Apple AirPods Max серый",
+    "manufactureDate": "2023-02-03",
+    "price": 59799
+  }
+]
