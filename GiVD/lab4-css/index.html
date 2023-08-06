@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Лабораторная работа 4</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="cubeContainer">
+        <div class="cube front">1</div>
+        <div class="cube back">2</div>
+        <div class="cube right">3</div>
+        <div class="cube left">4</div>
+        <div class="cube top">5</div>
+        <div class="cube bottom">6</div>
+    </div>
+</div>
+<div class="inputs">
+    <input type="range" id="size" min="10" max="600" value="200" oninput="onResize(event)">
+    <label>
+        Front(1)
+        <input type="color" id="frontC" oninput="onColorChange(event)" value="#5a5a5a">
+        <input type="range" id="frontO" min="0" max="100" value="70" step="5" oninput="onOpacityChange(event)">
+    </label>
+    <label>
+        Back(2)
+        <input type="color" id="backC" oninput="onColorChange(event)" value="#00d200">
+        <input type="range" id="backO" min="0" max="100" value="70" step="5" oninput="onOpacityChange(event)">
+    </label>
+    <label>
+        Right(3)
+        <input type="color" id="rightC" oninput="onColorChange(event)" value="#d20000">
+        <input type="range" id="rightO" min="0" max="100" value="70" step="5" oninput="onOpacityChange(event)">
+    </label>
+    <label>
+        Left(4)
+        <input type="color" id="leftC" oninput="onColorChange(event)" value="#0000d2">
+        <input type="range" id="leftO" min="0" max="100" value="70" step="5" oninput="onOpacityChange(event)">
+    </label>
+    <label>
+        Top(5)
+        <input type="color" id="topC" oninput="onColorChange(event)" value="#d2d200">
+        <input type="range" id="topO" min="0" max="100" value="70" step="5" oninput="onOpacityChange(event)">
+    </label>
+    <label>
+        Bottom(6)
+        <input type="color" id="bottomC" oninput="onColorChange(event)" value="#d200d2">
+        <input type="range" id="bottomO" min="0" max="100" value="70" step="5" oninput="onOpacityChange(event)">
+    </label>
+</div>
+</body>
+</html>
