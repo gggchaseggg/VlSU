@@ -7,14 +7,14 @@ function App() {
     useServerGoods()
 
   const [columns] = useState<GridColDef[]>([
-    { field: 'id', headerName: 'ID', width: '20' },
-    { field: 'name', headerName: 'Название', width: '500' },
+    { field: 'id', headerName: 'ID', width: 20 },
+    { field: 'name', headerName: 'Название', width: 500 },
     {
       field: 'manufactureDate',
       headerName: 'Дата производства',
-      width: '200',
+      width: 200,
     },
-    { field: 'price', headerName: 'Цена', width: '200' },
+    { field: 'price', headerName: 'Цена', width: 200 },
   ])
 
   const handlePageChange = (model: GridPaginationModel) => {
