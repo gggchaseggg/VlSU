@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="TextView">TextView</string>
+    <string name="TextView2">TextView2</string>
+    <string name="call_second_activity">Вызвать вторую активность</string>
+    <string name="call_third_activity">Вызвать третью активность</string>
+    <string name="second_activity">Вторая активность</string>
+    <string name="third_activity">Третья активность</string>
+    <string name="go_to_first_activity">Вернуться назад</string>
+    <string name="editMessage"></string>
+</resources>
