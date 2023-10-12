@@ -23,6 +23,8 @@ class ActivityTwo: AppCompatActivity() {
         val message = mEditText!!.getText().toString()
         val intent = Intent(this@ActivityTwo, MainActivity::class.java)
         intent.putExtra("message", message)
-        startActivity(intent)
+        setResult(2, intent)
+//        startActivity(intent)
+        finish()
     }
 }

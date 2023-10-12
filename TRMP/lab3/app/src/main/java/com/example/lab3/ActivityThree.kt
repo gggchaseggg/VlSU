@@ -20,6 +20,7 @@ class ActivityThree: AppCompatActivity() {
         val message = mEditText!!.getText().toString()
         val intent = Intent(this@ActivityThree, MainActivity::class.java)
         intent.putExtra("message", message)
-        startActivity(intent)
+        setResult(3, intent)
+        finish()
     }
 }

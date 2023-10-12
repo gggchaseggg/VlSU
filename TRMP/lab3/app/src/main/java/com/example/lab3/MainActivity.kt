@@ -27,14 +27,21 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             val message = mEditText!!.getText().toString()
             val intent = Intent(applicationContext, ActivityTwo::class.java)
             intent.putExtra("message", message)
-            startActivity(intent)
+            startActivityForResult(intent, 2)
         }
         if (view.getId() == R.id.button1) {
             val intent = Intent(applicationContext, ActivityThree::class.java)
-            startActivity(intent)
+            startActivityForResult(intent, 3)
         }
     }
 
-    override fun onPointerCaptureChanged(hasCapture: Boolean) {
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        val e = data?.getStringExtra("message")
+        if (requestCode == 2 || requestCode == 3) {
+            val mTextView = findViewById<View>(R.id.textView) as TextView
+            if (e != null) mTextView.setText(e.toString())
+        }
+
     }
 }
