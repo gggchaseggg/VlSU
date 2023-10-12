@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab5</string>
+    <string name="name">Имя</string>
+    <string name="email">Почта</string>
+    <string name="add">Добавить</string>
+    <string name="read">Прочитать</string>
+    <string name="clear">Очистить</string>
+</resources>
