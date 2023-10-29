@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-10-27T14:39:05.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JiLGZc-tSP1k5Dev4RyH" version="22.0.0" type="device">
+  <diagram name="Страница — 1" id="ErguofMQDjROISemtvsq">
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3oR9u11FQ21WGcYeukLB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-2" value="Цель:" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="205" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-3" value="Критерии:" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-4" value="Альтернативы:" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-5" value="Разработка большой и сложной информационной системы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="205" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-6" value="Стоимость разработки" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-7" value="Участие заказчика в разработке" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-8" value="Продолжительность разработки" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-9" value="Использование аутсорсинга" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-10" value="А&lt;br&gt;Силами заказчика" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-11" value="А&lt;br&gt;С привлечением разработчика" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oR9u11FQ21WGcYeukLB-12" value="В&lt;br&gt;С привлечением проектного интегратора" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="430" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
