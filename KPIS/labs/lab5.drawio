@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-10-29T13:46:46.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1xI3xgm0JzegNGKFuYnO" version="22.0.8" type="device">
+  <diagram name="Страница — 1" id="mAcSk4P2k2TiyB7zLJkV">
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="210" width="720" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-1" target="-Rme4IKmlpOnfwPdfLHD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-1" target="-Rme4IKmlpOnfwPdfLHD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-1" target="-Rme4IKmlpOnfwPdfLHD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-1" value="1) Заполнение технологического радара" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="64" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-3" target="-Rme4IKmlpOnfwPdfLHD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-3" target="-Rme4IKmlpOnfwPdfLHD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-3" value="2) Парсинг данных из репозиториев" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="254" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-5" value="4) Выбор репозитория" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="448" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-7" value="5) Фильтрация технологий по количеству использований" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="448" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-9" target="-Rme4IKmlpOnfwPdfLHD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-9" target="-Rme4IKmlpOnfwPdfLHD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-9" target="-Rme4IKmlpOnfwPdfLHD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-12" target="-Rme4IKmlpOnfwPdfLHD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-9" value="3) Добавление информации на радар вручную" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="254" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="-Rme4IKmlpOnfwPdfLHD-12" target="-Rme4IKmlpOnfwPdfLHD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-12" value="6) Создание карточки технологии" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="448" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-16" value="7) Указание лиц, имеющих экспертизу по технологии" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="644" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rme4IKmlpOnfwPdfLHD-19" value="8) Указание примера использования" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="644" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
