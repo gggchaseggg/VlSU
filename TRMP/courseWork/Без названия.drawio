@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-12-28T00:23:53.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kBMdv_CpjYuG5SA8NXLW" version="22.1.15" type="device">
+  <diagram name="Страница — 1" id="s0yD22W977yCVqiFGwJU">
+    <mxGraphModel dx="954" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FRqqIUsiL47s06QkhvRO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-1" target="FRqqIUsiL47s06QkhvRO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-1" target="FRqqIUsiL47s06QkhvRO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-1" target="FRqqIUsiL47s06QkhvRO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-1" target="FRqqIUsiL47s06QkhvRO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-1" target="FRqqIUsiL47s06QkhvRO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-1" target="FRqqIUsiL47s06QkhvRO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-1" target="FRqqIUsiL47s06QkhvRO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-4" value="Авторизоваться через Google аккаунт" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-5" value="Выйти из Google аккаунта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-9" value="Покупка помощников" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-11" value="Получение бонусов за проведенное время в игре" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-13" value="Настройка звука игры" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-15" value="Сохранение данных в firebase" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-17" value="Загрузка данных из firebase" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRqqIUsiL47s06QkhvRO-19" target="FRqqIUsiL47s06QkhvRO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-19" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRqqIUsiL47s06QkhvRO-20" value="Редактирование данных в firebase" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
