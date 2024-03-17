@@ -1,0 +1,57 @@
+[System]
+Name='first'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=15
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='x1'
+Range=[-5 10]
+NumMFs=3
+MF1='Низкий':'trimf',[-11.25 -5 1.25]
+MF2='Средний':'trimf',[-3.75 2.5 8.75]
+MF3='Высокий':'trimf',[3.71031746031746 9.96031746031746 16.2103174603175]
+
+[Input2]
+Name='x2'
+Range=[-1.2 0.7]
+NumMFs=5
+MF1='Низкий':'gaussmf',[0.2017 -1.2]
+MF2='НижеСреднего':'gaussmf',[0.2017 -0.725]
+MF3='Средний':'gaussmf',[0.2017 -0.25]
+MF4='ВышеСреднего':'gaussmf',[0.2017 0.225]
+MF5='Высокий':'gaussmf',[0.2017 0.7]
+
+[Output1]
+Name='output1'
+Range=[-50 50]
+NumMFs=5
+MF1='Низкий':'trimf',[-75 -50 -25]
+MF2='НижеСреднего':'trimf',[-50 -25 0]
+MF3='Средний':'trimf',[-25 -2.22e-16 25]
+MF4='ВышеСреднего':'trimf',[0 25 50]
+MF5='Высокий':'trimf',[25 50 75]
+
+[Rules]
+1 1, 5 (1) : 1
+1 2, 4 (1) : 1
+1 3, 3 (1) : 1
+1 4, 2 (1) : 1
+1 5, 1 (1) : 1
+2 1, 4 (1) : 1
+2 2, 3 (1) : 1
+2 3, 3 (1) : 1
+2 4, 4 (1) : 1
+2 5, 4 (1) : 1
+3 1, 3 (1) : 1
+3 2, 4 (1) : 1
+3 3, 4 (1) : 1
+3 4, 4 (1) : 1
+3 5, 5 (1) : 1
